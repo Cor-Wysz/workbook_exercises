@@ -11,4 +11,6 @@ print("This will run.")
 print("How does this 'sorcerey' work?") # A magician never reveals it's secrets.
 
 # print("It's magic")
-print("Magic.") 
+print("Magic.")
+
+print("I show my friend how this works") # He struggles to understand this new magic 
