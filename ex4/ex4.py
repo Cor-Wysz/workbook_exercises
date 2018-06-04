@@ -1,11 +1,12 @@
-cars = 100
-space_in_a_car = 4.0
-drivers = 30
-passengers = 90
+cars = 100 # Number of cars available.
+space_in_a_car = 4.0 # Number of seats per car.
+drivers = 30 # Number of able drivers
+passengers = 90 # Number of available passengers
 cars_not_driven = cars - drivers
-cars_driven = drivers
+cars_driven = drivers # Value equal to Line 3.
 carpool_capacity = cars_driven * space_in_a_car
-average_passengers_per_car = passengers / cars_driven
+# Able drivers times seats available.  
+average_passengers_per_car = passengers / cars_driven # Available passengers divided by able drivers
 
 
 print("There are", cars, "cars available.")
