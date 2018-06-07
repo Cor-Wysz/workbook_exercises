@@ -7,7 +7,7 @@ print("Roosters", 100 - 25 * 3 % 4) # First; 25 * 3 = 75, then 75 % 4 = 3. Final
 
 print("Now I will count the eggs:")
 
-print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6) # First 1 / 4 = 0.25. Next, 4 % 2 = 0, becuase 4 / 2 has no remainder. Then 3 + 2 + 1 - 5 + (0) - 0.25 + 6 = 6.75
+print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6) # First 1 / 4 = 0.25. Next, 4 % 2 = 0, because 4 / 2 has no remainder. Then 3 + 2 + 1 - 5 + (0) - 0.25 + 6 = 6.75
 
 print("Is it true 3 + 2 < 5 - 7?") # 5 is not < -2, so line 12 is False. 
 
