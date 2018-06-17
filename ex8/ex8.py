@@ -10,3 +10,11 @@ print(formatter.format(
 	"Maybe a poem",
 	"Or a song about fear"
 ))
+
+print(formatter.format(
+	"I shall try my text here",
+	"What I write, hopefully clear",
+	"Free of syntax error",
+	"And all I do fear"
+))
+
