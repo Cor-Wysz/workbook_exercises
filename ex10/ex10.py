@@ -1,16 +1,20 @@
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
 backslash_cat = "I'm \\ a \\ cat."
+with_a_newline = "\n"
 
-fat_cat = """
-I'll do a list:
-\t* Cat food
-\t* Fishies
-\t* Catnip\n\t* Grass
-"""
+fat_line = " "
+fat_line1 = "I'll do a list:"
+fat_line2 = "\t* Cat food"
+fat_line3 = "\t* Fishies"
+fat_line4 = "\t* Catnip\n\t* Grass"
+fat_lines = [fat_line, fat_line1, fat_line2, fat_line3, fat_line4]
+fat_cat = with_a_newline.join(fat_lines)
 
-print(tabby_cat)
-print(persian_cat)
-print(backslash_cat)
-print(fat_cat)
+cat_list = [tabby_cat, persian_cat, backslash_cat, fat_cat]
+
+
+format_catlist = with_a_newline.join(cat_list)
+
+print(format_catlist)
 
