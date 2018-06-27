@@ -1,4 +1,6 @@
-tabby_cat = "\tI'm tabbed in."
+tab = "\t"
+tab_line = "I'm tabbed in"
+tabby_cat = (tab + tab_line)
 persian_cat = "I'm split\non a line."
 backslash_cat = "I'm \\ a \\ cat."
 with_a_newline = "\n"
