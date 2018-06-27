@@ -21,24 +21,11 @@ ex_8_text = with_a_newline.join(these_statements)
 
 print(ex_8_text)
 
-<<<<<<< HEAD
-=======
-print(formatter.format(1, 2, 3, 4))
-print(formatter.format("one", "two", "three", "four"))
-print(formatter.format(True, False, False, True))
-print(formatter.format(formatter, formatter, formatter, formatter))
-print(formatter.format(
-	"Try your",
-	"Own text here",
-	"Maybe a poem",
-	"Or a song about fear"
-))
+my_poem_line1 = "I shall try my text here"
+my_poem_line2 =	"What I write, hopefully clear"
+my_poem_line3 =	"Free of syntax error"
+my_poem_line4 =	"And all I do fear"
+poem_lines = [my_poem_line1, my_poem_line2, my_poem_line3, my_poem_line4]
+my_poem = with_a_space.join(poem_lines)
+print(my_poem)
 
-print(formatter.format(
-	"I shall try my text here",
-	"What I write, hopefully clear",
-	"Free of syntax error",
-	"And all I do fear"
-))
-
->>>>>>> cc1736f9e499836153685155978f77dcb40f88b6
