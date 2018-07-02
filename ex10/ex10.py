@@ -1,22 +1,27 @@
 tab = "\t"
 tab_line = "I'm tabbed in"
 tabby_cat = (tab + tab_line)
-persian_cat = "I'm split\non a line."
+persian_cat1 = "I'm split"
+persian_cat2 = "on a line."
 backslash_cat = "I'm \\ a \\ cat."
 with_a_newline = "\n"
 
-fat_line = " "
-fat_line1 = "I'll do a list:"
-fat_line2 = "\t* Cat food"
-fat_line3 = "\t* Fishies"
-fat_line4 = "\t* Catnip\n\t* Grass"
-fat_lines = [fat_line, fat_line1, fat_line2, fat_line3, fat_line4]
-fat_cat = with_a_newline.join(fat_lines)
+bullet_point = "* "
+bullet_line = (with_a_newline + tab + bullet_point)
 
-cat_list = [tabby_cat, persian_cat, backslash_cat, fat_cat]
+list_1 = (with_a_newline + "I'll do a list:")
+list_2 = "Cat food"
+list_3 = "Fishies"
+list_4 = "Catnip"
+list_5 = "Grass"
+fat_list = [list_1, list_2, list_3, list_4, list_5]
+fat_cat = bullet_line.join(fat_list)
+
+cat_list = [tabby_cat, persian_cat1, persian_cat2, backslash_cat, fat_cat]
+
+tabbed_catlist = tab.join(cat_list)
+ex_10 =  with_a_newline.join(cat_list)
 
 
-format_catlist = with_a_newline.join(cat_list)
-
-print(format_catlist)
+print(ex_10)
 
